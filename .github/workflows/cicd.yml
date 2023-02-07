@@ -1,7 +1,7 @@
 name: ENANA
 
 on: [push]
-
+jobs:
   ci:
     runs-on: ubuntu-latest
 
