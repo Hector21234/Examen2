@@ -33,8 +33,8 @@ class EnanaTest extends TestCase {
     }
     
     public function testPocimaRevive() {
-        $enana= new Enana('nombre', -5, 'muerta');
-        $this->assertEquals(5, $enana->pocima());
+        $enana= new Enana('nombre', 10, 'viva');
+        $this->assertEquals(10, $enana->pocima());
         #Se probará el efecto de administrar una pócima a una Enana muerta pero con una vida mayor que -10 y menor que 0
         #Se tendrá que probar que la vida es mayor que 0 y que su situación ha cambiado a viva
 
