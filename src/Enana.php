@@ -47,13 +47,14 @@ $this->situacion="limbo";
 $this->situacion="viva";
 
     } 
+    elseif($this->situacion = "limbo"){
+
+       
+        $this->puntosVida = 0;
+    }
     else{
 
         $this->situacion = "muerta";
-    }
-    if($this->situacion = "limbo"){
-$this->puntosVida = 0;
-
     }
     return $this->puntosVida;
     return $this->situacion;
