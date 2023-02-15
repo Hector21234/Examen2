@@ -63,7 +63,7 @@ $this->puntosVida = 0;
     public function pocimaExtra(){
        
           
-$this->puntosVida = 50;
+$this->puntosVida=$this->puntosVida + 50;
 if($this->puntosVida >0){
     $this->situacion="viva";
     
